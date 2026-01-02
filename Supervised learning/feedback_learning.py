@@ -1,5 +1,5 @@
 """
-Feedback learning module to improve extraction strategies from human review.
+Feedback Supervised learning module to improve extraction strategies from human review.
 """
 
 from pathlib import Path

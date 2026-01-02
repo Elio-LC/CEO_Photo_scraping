@@ -1,6 +1,6 @@
 # Scraping photo Overview
 
-Tooling to extract, validate, and score CEO photos for the "CEO Narcissism Measurement and Impact" study. The project bundles scraping, vision checks, deduping, and reporting for DEF 14A filings. The full set of SEC DEF 14A HTML files for U.S. listed companies has already been collected.
+Tooling to extract, validate, and score CEO photos for the "CEO Narcissism Measurement and Impact" study. The project bundles scraping, vision checks, deduping, and reporting for DEF 14A filings, and it uses supervised learning to discover repeatable patterns for locating CEO portraits. The full set of SEC DEF 14A HTML files for U.S. listed companies has already been collected.
 
 ## Core entry points (minimum set)
 - `ceo_photo_pipeline_test.py`: main pipeline driver. Parses HTML, anchors candidate images, applies OpeingnCV checks, uses DashScope for verification/deduping, and writes JSON results.
